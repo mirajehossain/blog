@@ -6,6 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 
 
+import { PostService } from './post.service'
+
 
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
@@ -31,7 +33,7 @@ import { CategoriesComponent } from './categories/categories.component';
     AppRoutingModule
   ],
   exports: [ AppRoutingModule],
-  providers: [],
+  providers: [PostService],
   bootstrap: [AppComponent]
 })
 

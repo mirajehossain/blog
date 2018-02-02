@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from "@angular/router";
 
+
+
+import { Post } from '../post'
+import { PostService } from '../post.service'
 
 @Component({
   selector: 'app-home',
@@ -8,7 +11,7 @@ import { Router, ActivatedRoute } from "@angular/router";
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  Posts=[];
+  Posts : Post[];
   constructor() {
    this.Posts = [
     {
