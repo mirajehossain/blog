@@ -4,5 +4,5 @@ export class Post {
   details: string;
   author: string;
   date: string;
-  images: string;
+  images: any;
 }
