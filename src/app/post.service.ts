@@ -10,7 +10,11 @@ import { POSTS } from './dummy-post'
 export class PostService {
 
   constructor() { }
-  getPosts(): Observable<Post[]>{
+ /* getPosts(): Observable<Post[]>{
     return of(POSTS)
   }
+  */
+ getPosts(){
+   return POSTS;
+ }
 }
