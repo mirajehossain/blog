@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ApiService } from "../api.service";
 
 
 import { Post } from '../post'
@@ -12,11 +12,20 @@ import { PostService } from '../post.service'
 })
 export class HomeComponent implements OnInit {
   Posts : Post[];
-  constructor(private postService:PostService) {}
+  categories:string[];
+  constructor(private postService:PostService, private apiService:ApiService) {}
 
   ngOnInit() {
     this.Posts =  this.postService.getPosts();
     console.log(this.postService.getPosts())
+
+    this.apiService.getCategories()
+      .subscribe(data=>{
+        console.log(data);
+      })
+
+    this.categories = ["C/C++","JavaScript","Angular","NodeJS","Data-Structure","Algorithm"]
+
   }
 
 }

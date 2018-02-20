@@ -42,3 +42,7 @@ export const POSTS: Post[] = [
       images:["http://placehold.it/750x300"]
     }
   ];
+
+export const category:string[] = ['C/C++','JavaScript','Angular','NodeJS','Data-Structure','Algorithm']
+
+
