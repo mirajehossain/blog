@@ -4,7 +4,7 @@ export const POSTS: Post[] = [
     {
       id:1,
       title:"Lorem Ipsum Post Title",
-      details:`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!`,
+      details:`পছন্দের ভাষা টাইপ করা আরো সহজ করে তোলে৷ আরো জানুন. এটি ব্যবহার করে দেখতে, নীচে আপনার ভাষা এবং ইনপুট সরঞ্জাম চয়ন করুন এবং টাইপ করা শুরু করুন৷. এই সফ্টওয়্যারটি ডাউনলোড করার জন্য আপনার কাছে একটি JavaScript-সক্ষম ব্রাউজার ...`,
       author:"Alamin Hossain Miraje",
       date:"January 1, 2018 at 12:00 PM",
       images:["http://placehold.it/750x300"]
