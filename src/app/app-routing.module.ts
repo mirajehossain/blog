@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import {RouterModule, Router, Routes} from '@angular/router';
 
 
-import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PostComponent } from './post/post.component';
 import { PostsComponent } from './posts/posts.component';
@@ -19,7 +18,8 @@ const routes: Routes = [
   { path: 'post', component: PostComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'categories', component: CategoriesComponent }
+  { path: 'categories', component: CategoriesComponent },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
