@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
 
-import { PostService } from './post.service'
-import { ApiService } from "./api.service";
+import { PostService } from './post.service';
+import { ApiService } from './api.service';
 
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
@@ -34,7 +34,7 @@ import { CategoriesComponent } from './categories/categories.component';
     AppRoutingModule
   ],
   exports: [ AppRoutingModule],
-  providers: [PostService,ApiService],
+  providers: [PostService, ApiService],
   bootstrap: [AppComponent]
 })
 
