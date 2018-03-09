@@ -17,7 +17,7 @@
         <div class="card-body">
           <h2 class="card-title">{{post.title}}</h2>
           <p style="font-family: 'AdorshoLipi', sans-serif;" class="card-text">{{post.description}}</p>
-          <a routerLink="/post"   class="btn btn-primary">Read More &rarr;</a>
+          <a routerLink="/post/{{post.id}}"   class="btn btn-primary">Read More &rarr;</a>
         </div>
         <div class="card-footer text-muted">
           Posted on {{post.date}} by
