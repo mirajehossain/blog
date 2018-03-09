@@ -7,23 +7,47 @@
     <!-- Blog Entries Column -->
     <div class="col-md-8">
 
-      <h1 class="my-4">Contact Page
-        <small>Secondary Text</small>
-      </h1>
-
       <!-- Blog Post -->
-      <div class="card mb-4" *ngFor="let post of Posts">
-        <img class="card-img-top" src="{{post.images}}" alt="Card image cap">
-        <div class="card-body">
-          <h2 class="card-title">{{post.title}}</h2>
-          <p style="font-family: 'AdorshoLipi', sans-serif;" class="card-text">{{post.description}}</p>
-          <a routerLink="/post"   class="btn btn-primary">Read More &rarr;</a>
+      <div class="card mb-4 my-4">
+
+
+              <form class="form-horizontal" action="" method="post">
+                <fieldset>
+                  <legend class="text-center card-header">Contact Me</legend>
+
+                  <!-- Name input-->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="name">Name</label>
+                    <div class="col-md-9">
+                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Email input-->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                    <div class="col-md-9">
+                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Message body -->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="message">Your message</label>
+                    <div class="col-md-9">
+                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                    </div>
+                  </div>
+
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-12 text-right">
+                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
         </div>
-        <div class="card-footer text-muted">
-          Posted on {{post.date}} by
-          <a href="#">{{post.author}}</a>
-        </div>
-      </div>
 
     </div>
 
