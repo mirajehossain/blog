@@ -7,3 +7,16 @@ body {
     padding-top: 56px;
   }
 }
+
+
+.line-clamp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+
+.bangla-font{
+  font-family: 'AdorshoLipi', sans-serif;
+}

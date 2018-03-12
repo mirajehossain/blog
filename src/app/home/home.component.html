@@ -16,12 +16,12 @@
         <img class="card-img-top" src="{{post.images}}" alt="Card image cap">
         <div class="card-body">
           <h2 class="card-title">{{post.title}}</h2>
-          <p style="font-family: 'AdorshoLipi', sans-serif;" class="card-text line-clamp">{{post.description}}</p>
-          <a routerLink="/post/{{post.id}}"   class="btn btn-primary">Read More &rarr;</a>
+          <p class="card-text line-clamp bangla-font">{{post.description}}</p>
+          <a routerLink="/post/{{post.id}}"   class="btn btn-primary float-right">Read More &rarr;</a>
         </div>
         <div class="card-footer text-muted">
-          Posted on {{post.date}} by
-          <a href="#">{{post.author}}</a>
+          Posted on {{post.date}} |
+          <a routerLink="/about">{{post.author}}</a> | {{post.category || 'category'}}
         </div>
       </div>
 
@@ -55,38 +55,6 @@
       </div>
 
       <!-- Categories Widget -->
-      <!--<div class="card my-4">
-        <h5 class="card-header">Categories</h5>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-lg-6">
-              <ul *ngFor="let category of categories" class="list-unstyled mb-0 ">
-
-                <li >
-                  <a href="#">{{category}}</a>
-
-                </li>
-
-
-              </ul>
-            </div>
-           &lt;!&ndash; <div class="col-lg-6">
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#">MODELS</a>
-                </li>
-                <li>
-                  <a href="#">LifeStyle</a>
-                </li>
-                <li>
-                  <a href="#">Uncatalogued</a>
-                </li>
-              </ul>
-            </div>&ndash;&gt;
-          </div>
-        </div>
-      </div>
--->
       <app-categories></app-categories>
 
       <!-- Side Widget -->
