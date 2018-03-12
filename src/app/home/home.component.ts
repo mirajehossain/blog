@@ -9,7 +9,6 @@ import { PostService } from '../post.service';
 })
 export class HomeComponent implements OnInit {
   Posts: any;
-  categories: string[];
   constructor(private postService: PostService, private apiService: ApiService) {}
 
   ngOnInit() {
@@ -21,7 +20,6 @@ export class HomeComponent implements OnInit {
     //     this.Posts = data.data;
     //   });
 
-    this.categories = ['C/C++', 'JavaScript', 'Angular', 'NodeJS', 'Data-Structure', 'Algorithm'];
 
   }
 

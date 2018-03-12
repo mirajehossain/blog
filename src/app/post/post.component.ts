@@ -20,8 +20,7 @@ export class PostComponent implements OnInit {
     const id = +this.route.snapshot.paramMap.get('id');
     this.apiService.getPost(id)
       .subscribe(
-        post=> this.Post = post)
-    ;
+        post=> this.Post = post);
 
 
   }
