@@ -6,3 +6,7 @@ export class Post {
   date: string;
   images: any;
 }
+export class Category{
+  id: number;
+  title: string;
+}
