@@ -9,17 +9,17 @@ import { PostService } from '../post.service';
 })
 export class HomeComponent implements OnInit {
   Posts: any;
-  constructor(private postService: PostService, private apiService: ApiService) {}
+  constructor(private apiService: ApiService) {}
 
   ngOnInit() {
-    this.Posts =  this.postService.getPosts();
-    console.log(this.Posts)
+    // this.Posts =  this.postService.getPosts();
+    // console.log(this.Posts)
     // console.log(this.postService.getPosts());
-    // this.apiService.getPosts()
-    //   .subscribe(data => {
-    //     this.Posts = data.data;
-    //   });
 
+    this.apiService.getPosts()
+      .subscribe(data => {
+        this.Posts = data.data;
+      });
 
   }
 
