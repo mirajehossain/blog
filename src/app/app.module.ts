@@ -5,6 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
+import { sanitizeHtmlPipe } from './directives/sanitize-html.pipe';
+
 
 import { PostService } from './post.service';
 import { ApiService } from './api.service';
@@ -25,7 +27,8 @@ import { CategoriesComponent } from './categories/categories.component';
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    sanitizeHtmlPipe
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,7 @@ import { CategoriesComponent } from './categories/categories.component';
     FormsModule,
     AppRoutingModule
   ],
-  exports: [ AppRoutingModule],
+  exports: [ AppRoutingModule,sanitizeHtmlPipe                                                                                              ],
   providers: [PostService, ApiService],
   bootstrap: [AppComponent]
 })
