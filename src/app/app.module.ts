@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { sanitizeHtmlPipe } from './directives/sanitize-html.pipe';
 
 
-import { PostService } from './post.service';
 import { ApiService } from './api.service';
 
 import { AppComponent } from './app.component';
@@ -37,7 +36,7 @@ import { CategoriesComponent } from './categories/categories.component';
     AppRoutingModule
   ],
   exports: [ AppRoutingModule,sanitizeHtmlPipe                                                                                              ],
-  providers: [PostService, ApiService],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 

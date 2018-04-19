@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from "../api.service";
-import { Category } from "../post";
 
 @Component({
   selector: 'app-categories',
@@ -9,26 +8,7 @@ import { Category } from "../post";
 })
 export class CategoriesComponent implements OnInit {
 
-  categories:Category[] = [
-    {
-      id:1,
-      title:'C/C++'
-    }, {
-      id:2,
-      title:'JavaScript'
-    }, {
-      id:3,
-      title:'Angular'
-    }, {
-      id:4,
-      title:'NodeJS'
-    }, {
-      id:5,
-      title:'DataStructure'
-    }, {
-      id:6,
-      title:'Algorithm'
-    }];
+  categories:any;
   constructor(private apiService:ApiService) { }
 
 
@@ -39,7 +19,11 @@ export class CategoriesComponent implements OnInit {
   GetCategories():void{
 
     this.apiService.getCategories()
-      .subscribe(category=>this.categories = category);
+      .subscribe(cat=>{
+        this.categories = cat.data;
+        console.log(this.categories)
+        }
+      );
 
   }
 }
