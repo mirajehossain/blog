@@ -7,12 +7,8 @@
     <!-- Blog Entries Column -->
     <div class="col-md-8">
 
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
-      </h1>
-
       <!-- Blog Post -->
-      <div class="card mb-4" *ngFor="let post of Posts">
+      <div class="card my-4 mb-4" *ngFor="let post of Posts">
         <img class="card-img-top" src="{{post.images}}" alt="Card image cap">
         <div class="card-body">
           <h2 class="card-title">{{post.title}}</h2>
