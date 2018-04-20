@@ -11,24 +11,22 @@
 
       <!-- Author -->
       <p class="lead">
-        by
-        <a href="#">{{Post.author}}</a>
+        By
+        <a href="#">{{Post.author}}</a>  |  {{Post.date}}
       </p>
 
-      <hr>
-
-      <!-- Date/Time -->
-      <p>{{Post.date}}</p>
+<!--
 
       <hr>
 
-      <!-- Preview Image -->
+      &lt;!&ndash; Preview Image &ndash;&gt;
       <img class="img-fluid rounded" src="{{Post.images}}" alt="">
+-->
 
       <hr>
 
       <!-- Post Content -->
-      <p class="lead line-clamp">{{Post.description}}</p>
+      <p class="lead line-clamp"><span [innerHTML]="Post.description | sanitizeHtml"></span></p>
       <hr>
       <a class="fb-comments" data-href="http://mirajehossain.com/{{Post.id}}" data-numposts="4">
       </a>

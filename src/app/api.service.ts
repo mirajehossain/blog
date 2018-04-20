@@ -5,15 +5,18 @@ import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
 
 import { Post, Category } from './post';
-import { POSTS } from "./dummy-post";
+
+
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/observable/throw';
 
 
 @Injectable()
 export class ApiService {
 
   endpoint = 'http://localhost:3000/api/';
-  // url = 'http://localhost:3000/api/posts';
-  url = "dummy.json";
+  // url = "dummy.json";
   constructor(private http: HttpClient) {
   }
 
@@ -21,10 +24,9 @@ export class ApiService {
    * Get All Post from API
    * @returns {Observable<Post[]>}
    */
-  getPosts():Observable<Post[]> {
-   let url = "posts";
-    // return this.http.get<Post[]>(this.endpoint+url);
-    return this.http.get<Post[]>(this.url);
+  getPosts():Observable<any> {
+   let url = this.endpoint+"posts";
+    return this.http.get<any>(url);
   }
 
 
@@ -33,10 +35,10 @@ export class ApiService {
    * @param {number} id
    * @returns {Observable<Post>}
    */
-  getPost(id:number):Observable<Post>{
-    const url = 'post/:'+id;
-    // return  this.http.get<Post>(this.endpoint+url);
-    return of(POSTS.find(post=>post.id === id))
+  getPost(id:number):Observable<any>{
+    const url = this.endpoint+'post/'+id;
+    return this.http.get<any>(url);
+
   }
 
 
@@ -46,7 +48,7 @@ export class ApiService {
    * @returns {Observable<Post[]>}
    */
   getPostByCategory(id:number):Observable<Post[]>{
-    const url = 'post/find_by_category/:'+id;
+    const url = 'post/find_by_category/'+ id;
     return this.http.get<Post[]>(this.endpoint+url);
   }
 
@@ -56,8 +58,8 @@ export class ApiService {
    * @returns {Observable<Category[]>}
    */
   getCategories():Observable<Category[]>{
-    const url = 'category/get_categories';
-    return this.http.get<Category[]>(this.endpoint+url);
+    const url = this.endpoint+'category/get_categories';
+    return this.http.get<Category[]>(url);
   }
 
 
@@ -66,8 +68,8 @@ export class ApiService {
    * @returns {Observable<any>}
    */
   getAbout():Observable<any>{
-    const url = 'about/get_about';
-    return this.http.get(this.endpoint+this.url);
+    const url = this.endpoint+'about/get_about';
+    return this.http.get(url);
   }
 
 

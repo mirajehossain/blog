@@ -9,19 +9,30 @@ import { ApiService } from "../api.service";
 })
 export class PostComponent implements OnInit {
 
-  constructor(private  route: ActivatedRoute, private apiService: ApiService) { }
+  constructor(private  route: ActivatedRoute, private apiService: ApiService) {
+  this.getPost();
 
-  Post;
+  }
+
+  Post:any;
+
   ngOnInit() {
     this.getPost();
   }
 
-  getPost():void{
+  getPost(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     this.apiService.getPost(id)
       .subscribe(
-        post=> this.Post = post);
+        post =>{
+           this.Post = post.data[0];
+        },
+          error=> console.log(error)
+      );
+
 
 
   }
+
+
 }

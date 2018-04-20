@@ -16,7 +16,7 @@
         <img class="card-img-top" src="{{post.images}}" alt="Card image cap">
         <div class="card-body">
           <h2 class="card-title">{{post.title}}</h2>
-          <p class="card-text line-clamp bangla-font">{{post.description}}</p>
+          <p class="card-text line-clamp bangla-font"> <span [innerHTML]="post.description | sanitizeHtml" ></span></p>
           <a routerLink="/post/{{post.id}}"   class="btn btn-primary float-right">Read More &rarr;</a>
         </div>
         <div class="card-footer text-muted">
