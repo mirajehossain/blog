@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService } from "../api.service";
+import {PostType} from "../types";
 
 @Component({
   selector: 'app-post',
@@ -13,17 +14,8 @@ export class PostComponent implements OnInit {
   this.getPost();
 
   }
-  post:Object = {
-    id:'',
-    title:'',
-    description:'',
-    author:'',
-    date:'',
-    picture:''
 
-  };
-
-  Post:Object = new Object(this.post);
+  Post:PostType;
 
   ngOnInit() {
     this.getPost();
