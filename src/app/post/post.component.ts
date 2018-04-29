@@ -13,8 +13,17 @@ export class PostComponent implements OnInit {
   this.getPost();
 
   }
+  post:Object = {
+    id:'',
+    title:'',
+    description:'',
+    author:'',
+    date:'',
+    picture:''
 
-  Post:any;
+  };
+
+  Post:Object = new Object(this.post);
 
   ngOnInit() {
     this.getPost();
@@ -26,12 +35,10 @@ export class PostComponent implements OnInit {
       .subscribe(
         post =>{
            this.Post = post.data[0];
+           console.log(this.Post)
         },
           error=> console.log(error)
       );
-
-
-
   }
 
 
