@@ -14,3 +14,9 @@ export interface CategoryType{
   id:'',
   title:''
 }
+
+export interface AuthorType{
+  title:'',
+  quotes:'',
+  description:''
+}
