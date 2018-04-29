@@ -8,7 +8,7 @@
     <div class="col-md-8">
 
       <!-- Blog Post -->
-      <div class="card my-4 mb-4" *ngFor="let post of Posts">
+      <div class="card my-4 mb-4" *ngFor="let post of Posts | slice: 0:10">
         <img class="card-img-top" src="{{post.images}}" alt="Card image cap">
         <div class="card-body">
           <h2 class="card-title">{{post.title}}</h2>

@@ -14,11 +14,12 @@ import { CategoriesComponent } from './categories/categories.component';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'posts', component: PostsComponent },
+  // { path: 'posts', component: PostsComponent },
   { path: 'post/:id', component: PostComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'categories', component: CategoriesComponent },
+  { path: 'category/:id', component: PostsComponent },
   { path: '**', redirectTo: '/home', pathMatch: 'full' }
 ];
 

@@ -43,7 +43,7 @@ export class ApiService {
    * @param {number} id
    * @returns {Observable<Post[]>}
    */
-  getPostByCategory(id:number):Observable<any>{
+  getPostByCategory(id):Observable<any>{
     const url = 'post/find_by_category/'+ id;
     return this.http.get<any>(this.endpoint+url);
   }

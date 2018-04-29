@@ -10,7 +10,7 @@
       <h1 class="mt-4">{{Post.title}}</h1>
 
       <!-- Author -->
-      <p class="lead">
+      <p *ngIf="Post.author" class="lead">
         By
         <a href="#">{{Post.author}}</a>  |  {{Post.date}} | {{ Post.ctitle }}
       </p>

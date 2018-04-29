@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
+import {PostType} from "../types";
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import { ApiService } from '../api.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  Posts: any;
+  Posts: PostType;
   constructor(private apiService: ApiService) {}
 
   ngOnInit() {

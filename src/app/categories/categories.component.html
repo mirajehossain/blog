@@ -6,7 +6,8 @@
       <div class="col-lg-6">
         <ul *ngFor="let category of categories" class="list-unstyled mb-0">
           <li >
-            <a>{{category.title}}</a>
+            <a routerLink="/category/{{category.id}}">{{category.title}}</a>
+            <!--<a routerLink="/category/{{category.title}}">{{category.title}}</a>-->
           </li>
         </ul>
       </div>
