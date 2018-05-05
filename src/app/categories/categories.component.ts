@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from "../api.service";
+import {CategoryType} from "../types";
 
 @Component({
   selector: 'app-categories',
@@ -8,7 +9,7 @@ import { ApiService } from "../api.service";
 })
 export class CategoriesComponent implements OnInit {
 
-  categories:any;
+  categories:CategoryType[];
   constructor(private apiService:ApiService) { }
 
 

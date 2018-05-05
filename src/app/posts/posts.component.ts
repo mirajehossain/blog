@@ -9,7 +9,7 @@ import {ActivatedRoute} from "@angular/router";
   styleUrls: ['./posts.component.css']
 })
 export class PostsComponent implements OnInit {
-Posts:PostType;
+Posts:PostType[];
   constructor(private route: ActivatedRoute, private apiService: ApiService) { }
 
   ngOnInit() {

@@ -1,22 +1,22 @@
 export interface PostType {
-  id:'',
-  title:'',
-  ctitle:'',
-  category_id:'',
-  description:'',
-  author:'',
-  date:'',
-  picture:''
+  id?:number,
+  title?:string,
+  ctitle?:string,
+  category_id?:string,
+  description?:string,
+  author?:string,
+  date?:string,
+  picture?:string
 
 }
 
 export interface CategoryType{
-  id:'',
-  title:''
+  id?:number,
+  title?:string
 }
 
 export interface AuthorType{
-  title:'',
-  quotes:'',
-  description:''
+  title?:string,
+  quotes?:string,
+  description?:string
 }

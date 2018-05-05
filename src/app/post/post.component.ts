@@ -15,7 +15,7 @@ export class PostComponent implements OnInit {
 
   }
 
-  Post:PostType;
+  public Post:PostType = new Object();
 
   ngOnInit() {
     this.getPost();
