@@ -11,8 +11,6 @@ import {PostType} from "../types";
 export class PostComponent implements OnInit {
 
   constructor(private  route: ActivatedRoute, private apiService: ApiService) {
-  this.getPost();
-
   }
 
   public Post:PostType = new Object();
