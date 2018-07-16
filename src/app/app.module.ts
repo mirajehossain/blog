@@ -5,37 +5,26 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { sanitizeHtmlPipe } from './directives/sanitize-html.pipe';
 
 
 import { ApiService } from './api.service';
 
 import { AppComponent } from './app.component';
-import { PostComponent } from './post/post.component';
-import { PostsComponent } from './posts/posts.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { HomeComponent } from './home/home.component';
-import { CategoriesComponent } from './categories/categories.component';
+import {sanitizeHtmlPipe} from "./directives/sanitize-html.pipe";
+import {LayoutModule} from "./layout/layout.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    PostComponent,
-    PostsComponent,
-    AboutComponent,
-    ContactComponent,
-    HomeComponent,
-    CategoriesComponent,
-    sanitizeHtmlPipe
+    AppComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LayoutModule
   ],
-  exports: [ AppRoutingModule,sanitizeHtmlPipe                                                                                              ],
+  exports: [ AppRoutingModule],
   providers: [ApiService],
   bootstrap: [AppComponent]
 })

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {AuthorType} from "../types";
-import {ApiService} from "../api.service";
+import {AuthorType} from "../../types";
+import {ApiService} from "../../api.service";
 
 @Component({
   selector: 'app-about',
@@ -8,7 +8,7 @@ import {ApiService} from "../api.service";
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-    Author:AuthorType;
+  Author:AuthorType;
 
   constructor(private apiService:ApiService) { }
 
@@ -19,9 +19,9 @@ export class AboutComponent implements OnInit {
   getAbout(){
     this.apiService.getAbout()
       .subscribe(success=> {
-        console.log(success);
-        this.Author = success.data[0]
-      },
+          console.log(success);
+          this.Author = success.data[0]
+        },
         error=> error
       )
   }

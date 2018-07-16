@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { ApiService } from "../api.service";
-import {PostType} from "../types";
+import {PostType} from "../../types";
+import {ApiService} from "../../api.service";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-post',
@@ -10,10 +10,9 @@ import {PostType} from "../types";
 })
 export class PostComponent implements OnInit {
 
-  constructor(private  route: ActivatedRoute, private apiService: ApiService) {
-  }
-
   public Post:PostType = new Object();
+
+  constructor(private  route: ActivatedRoute, private apiService: ApiService) { }
 
   ngOnInit() {
     this.getPost();
@@ -24,12 +23,11 @@ export class PostComponent implements OnInit {
     this.apiService.getPost(id)
       .subscribe(
         post =>{
-           this.Post = post.data[0];
-           console.log(this.Post)
+          this.Post = post.data[0];
+          console.log(this.Post)
         },
-          error=> console.log(error)
+        error=> console.log(error)
       );
   }
-
 
 }

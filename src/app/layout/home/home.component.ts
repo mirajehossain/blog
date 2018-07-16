@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../api.service';
-import {PostType} from "../types";
+import {ApiService} from "../../api.service";
+import {PostType} from "../../types";
 
 @Component({
   selector: 'app-home',
@@ -8,6 +8,7 @@ import {PostType} from "../types";
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
   Posts: PostType;
   constructor(private apiService: ApiService) {}
 
@@ -19,10 +20,11 @@ export class HomeComponent implements OnInit {
 
     this.apiService.getPosts()
       .subscribe(post => {
-        this.Posts = post.data;
-      },
+          this.Posts = post.data;
+        },
         error=>console.log(error)
       );
   }
+
 
 }

@@ -1648,11 +1648,11 @@ Expr = Sizzle.selectors = {
 				1 type (only|nth|...)
 				2 what (child|of-type)
 				3 argument (even|odd|\d*|\d*n([+-]\d+)?|...)
-				4 xn-component of xn+y argument ([+-]?\d*n|)
-				5 sign of xn-component
-				6 x of xn-component
-				7 sign of y-component
-				8 y of y-component
+				4 xn-layout of xn+y argument ([+-]?\d*n|)
+				5 sign of xn-layout
+				6 x of xn-layout
+				7 sign of y-layout
+				8 y of y-layout
 			*/
 			match[1] = match[1].toLowerCase();
 
