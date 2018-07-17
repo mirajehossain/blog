@@ -3,17 +3,17 @@ import { CommonModule } from '@angular/common';
 
 import { PostRoutingModule } from './post-routing.module';
 import {PostComponent} from "./post.component";
-import {sanitizeHtmlPipe} from "../../directives/sanitize-html.pipe";
+import {PipeModule} from "../../directives/pipe.module";
 
 @NgModule({
   imports: [
     CommonModule,
     PostRoutingModule,
+    PipeModule
 
   ],
   declarations: [
     PostComponent,
-    // sanitizeHtmlPipe
   ],
   exports: [PostRoutingModule]
 })

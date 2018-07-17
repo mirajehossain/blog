@@ -10,7 +10,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { ApiService } from './api.service';
 
 import { AppComponent } from './app.component';
-import {sanitizeHtmlPipe} from "./directives/sanitize-html.pipe";
 import {LayoutModule} from "./layout/layout.module";
 
 @NgModule({

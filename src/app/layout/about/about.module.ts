@@ -3,16 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { AboutRoutingModule } from './about-routing.module';
 import {AboutComponent} from "./about.component";
-import {sanitizeHtmlPipe} from "../../directives/sanitize-html.pipe";
+import {PipeModule} from "../../directives/pipe.module";
 
 @NgModule({
   imports: [
     CommonModule,
     AboutRoutingModule,
+    PipeModule
   ],
   declarations: [
     AboutComponent,
-    // sanitizeHtmlPipe
   ],
   exports: [AboutRoutingModule]
 })

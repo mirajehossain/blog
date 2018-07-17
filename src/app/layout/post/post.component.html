@@ -1,5 +1,5 @@
 <!-- Post Content Column -->
-<div class="col-lg-8">
+<div >
 
   <!-- Title -->
   <h1 class="mt-4">{{Post.title}}</h1>
@@ -21,8 +21,7 @@
   <hr>
 
   <!-- Post Content -->
-  <!--<p class="lead "><span [innerHTML]="Post.description | sanitizeHtml"></span></p>-->
-  <p class="lead "><span> {{ Post.description }}</span></p>
+  <p class="lead "><span [innerHTML]="Post.description | sanitizeHtml"></span></p>
   <hr>
   <a class="fb-comments" data-href="http://mirajehossain.com/{{Post.id}}" data-numposts="4">
   </a>
