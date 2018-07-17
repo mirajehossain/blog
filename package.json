@@ -23,6 +23,7 @@
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
     "express": "^4.16.3",
+    "ngx-disqus": "^2.3.7",
     "rxjs": "^5.5.6",
     "typescript": "~2.5.3",
     "zone.js": "^0.8.19"
