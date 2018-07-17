@@ -1,0 +1,6 @@
+<h2  class="mt-4 text-center">{{Author.title}}</h2>
+<p  class="mt-4 text-sm-center">{{Author.quotes}}</p>
+<hr>
+
+<p class="lead "><span [innerHTML]="Author.description | sanitizeHtml"></span></p>
+<hr>
