@@ -4,13 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
-
-
-
+import { LayoutModule} from "./layout/layout.module";
 import { ApiService } from './api.service';
 
 import { AppComponent } from './app.component';
-import {LayoutModule} from "./layout/layout.module";
 
 @NgModule({
   declarations: [
@@ -23,7 +20,7 @@ import {LayoutModule} from "./layout/layout.module";
     AppRoutingModule,
     LayoutModule
   ],
-  exports: [ AppRoutingModule],
+  exports: [AppRoutingModule],
   providers: [ApiService],
   bootstrap: [AppComponent]
 })

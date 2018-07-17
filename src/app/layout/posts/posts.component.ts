@@ -17,7 +17,6 @@ export class PostsComponent implements OnInit {
     this.router.events.subscribe(e=>{
       if ( e instanceof NavigationEnd){
         const id = this.route.snapshot.paramMap.get('id');
-        console.log(id);
         this.getPost(id);
       }
     });
