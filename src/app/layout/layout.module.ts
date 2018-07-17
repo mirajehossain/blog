@@ -11,7 +11,7 @@ import {MainModule} from "../main/main.module";
     LayoutRoutingModule,
     MainModule,
   ],
-  declarations: [LayoutComponent,],
-  exports: [LayoutRoutingModule,],
+  declarations: [LayoutComponent],
+  exports: [LayoutRoutingModule],
 })
 export class LayoutModule { }

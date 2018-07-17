@@ -12,6 +12,7 @@ const routes: Routes = [
       { path: 'posts', loadChildren: './posts/posts.module#PostsModule' },
       { path: 'post/:id', loadChildren: './post/post.module#PostModule'},
       { path: 'about', loadChildren: './about/about.module#AboutModule'},
+      { path: 'contact', loadChildren: './contact/contact.module#ContactModule'},
       { path: 'category/:id', loadChildren: './posts/posts.module#PostsModule'},
       { path: '**', redirectTo: 'home'}
     ]
