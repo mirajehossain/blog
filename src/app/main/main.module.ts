@@ -5,6 +5,7 @@ import { MainRoutingModule } from './main-routing.module';
 import {HeaderComponent} from "./header/header.component";
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   imports: [
@@ -14,12 +15,14 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    CategoriesComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    CategoriesComponent
   ]
 })
 export class MainModule { }

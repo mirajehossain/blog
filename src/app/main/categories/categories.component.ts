@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from "../api.service";
-import {CategoryType} from "../types";
+import {CategoryType} from "../../types";
+import {ApiService} from "../../api.service";
 
 @Component({
   selector: 'app-categories',
@@ -21,10 +21,11 @@ export class CategoriesComponent implements OnInit {
 
     this.apiService.getCategories()
       .subscribe(cat=>{
-        this.categories = cat.data;
-        console.log(this.categories)
+          this.categories = cat.data;
+          console.log(this.categories)
         }
       );
 
   }
+
 }
