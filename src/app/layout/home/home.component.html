@@ -2,7 +2,7 @@
 
 
 <!-- Blog Post -->
-<div class="card my-4 mb-4" *ngFor="let post of Posts | slice: 0:10">
+<div class="card my-4 mb-4" *ngFor="let post of Posts | slice: startAt:endAt">
   <!--<img class="card-img-top" src="{{post.images}}" alt="Card image cap">-->
   <div class="card-body">
     <h2 class="card-title">{{post.title}}</h2>
@@ -17,11 +17,11 @@
 
 <!-- Pagination -->
 <ul class="pagination justify-content-center mb-4">
-  <li class="page-item">
-    <a class="page-link" href="#">&larr; Older</a>
+  <li class="page-item" *ngIf="currentPage < totalPage">
+    <a class="page-link" (click)="previous()" >&larr; Older</a>
   </li>
-  <li class="page-item disabled">
-    <a class="page-link" href="#">Newer &rarr;</a>
+  <li *ngIf="startAt"  class="page-item">
+    <a class="page-link" (click)="next()">Newer &rarr;</a>
   </li>
 </ul>
 

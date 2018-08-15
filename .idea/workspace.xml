@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="df14c82a-ca75-4f6c-b25b-77e8d2dad99e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/post/post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/post/post.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/post/post.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/post/post.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/posts/posts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/posts/posts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/categories/categories.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/categories/categories.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,7 +27,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/api.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/app/layout/contact/contact.component.html" />
         <option value="$PROJECT_DIR$/src/app/layout/layout-routing.module.ts" />
         <option value="$PROJECT_DIR$/src/app/layout/about/about.component.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/api.service.ts" />
       </list>
     </option>
   </component>
@@ -133,7 +166,268 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package-lock.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.angular-cli.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.editorconfig</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/blog.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/e2e/app.e2e-spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/e2e/app.po.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/e2e/tsconfig.e2e.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/karma.conf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/protractor.conf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/server.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/api.service.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/api.service.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/app.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/directives/pipe.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/directives/sanitize-html.pipe.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/dummy.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/about/about-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/about/about.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/about/about.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/about/about.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/about/about.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/about/about.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/contact/contact-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/contact/contact.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/contact/contact.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/contact/contact.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/contact/contact.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/contact/contact.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/home/home-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/home/home.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/home/home.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/home/home.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/home/home.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/home/home.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/layout-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/layout.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/layout.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/layout.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/layout.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/layout.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/post/post-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/post/post.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/post/post.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/post/post.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/post/post.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/post/post.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/posts/posts-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/posts/posts.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/posts/posts.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/posts/posts.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/posts/posts.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/layout/posts/posts.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/categories/categories.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/categories/categories.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/categories/categories.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/categories/categories.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/footer/footer.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/footer/footer.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/footer/footer.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/footer/footer.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/header/header.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/header/header.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/header/header.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/header/header.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/main-routing.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/main.module.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.spec.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/app/types.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/assets/.gitkeep</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/css/blog-home.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/css/blog-post.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/environments/environment.prod.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/environments/environment.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/polyfills.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/styles.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/tsconfig.app.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/tsconfig.spec.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/typings.d.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap-grid.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap-grid.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap-reboot.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap-reboot.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/css/bootstrap.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.bundle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.bundle.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.bundle.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.bundle.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/bootstrap/js/bootstrap.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/jquery/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/jquery/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/jquery/jquery.min.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/jquery/jquery.slim.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/jquery/jquery.slim.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/vendor/jquery/jquery.slim.min.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tsconfig.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tslint.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CNAME</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/about.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/blog-home.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/blog-post.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/gulpfile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/post.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/jquery/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/jquery/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/jquery/jquery.min.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/jquery/jquery.slim.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/jquery/jquery.slim.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/jquery/jquery.slim.min.map</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,21 +508,32 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25509000" />
+    <option name="totallyTimeSpent" value="26023000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298791" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32767403" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" weight="0.3298791" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34974533" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3609672" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293718" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,7 +551,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34974533" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout>
@@ -270,7 +574,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="contact module done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/about/about.component.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/layout/about/about.component.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -455,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,9 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="64" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,17 +826,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/api.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/layout/layout.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/api.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>

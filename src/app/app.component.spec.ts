@@ -6,7 +6,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-    }).compileComponents();
+    }).compileComponentfs();
   }));
   it('should create the app', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
