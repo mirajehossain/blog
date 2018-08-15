@@ -43,16 +43,46 @@ export class HomeComponent implements OnInit {
       this.currentPage++;
       this.startAt += 10 ;
       this.endAt = this.currentPage * 10;
+    // window.scroll(0,0);
+
+    let scrollToTop = window.setInterval(() => {
+      let pos = window.pageYOffset;
+      if (pos > 0) {
+        window.scrollTo(0, pos - 20); // how far to scroll on each step
+      } else {
+        window.clearInterval(scrollToTop);
+      }
+    }, 16);
   }
   next(){
     if(this.currentPage <=this.totalPage){
       this.currentPage--;
       this.startAt -= 10 ;
       this.endAt = this.currentPage - 10;
+      // window.scroll(0,0);
+
+      let scrollToTop = window.setInterval(() => {
+        let pos = window.pageYOffset;
+        if (pos > 0) {
+          window.scrollTo(0, pos - 20); // how far to scroll on each step
+        } else {
+          window.clearInterval(scrollToTop);
+        }
+      }, 16);
     } else {
       this.currentPage--;
       this.startAt -= 10 ;
       this.endAt = this.currentPage - 10;
+
+
+      let scrollToTop = window.setInterval(() => {
+        let pos = window.pageYOffset;
+        if (pos > 0) {
+          window.scrollTo(0, pos - 20); // how far to scroll on each step
+        } else {
+          window.clearInterval(scrollToTop);
+        }
+      }, 16);
     }
 
   }
