@@ -1,0 +1,28 @@
+<!-- Blog Entries Column -->
+
+
+<!-- Blog Post -->
+<div class="card my-4 mb-4" *ngFor="let post of Posts | slice: startAt:endAt">
+  <!--<img class="card-img-top" src="{{post.images}}" alt="Card image cap">-->
+  <div class="card-body">
+    <h2 class="card-title">{{post.title}}</h2>
+    <p class="card-text line-clamp bangla-font"> <span [innerHTML]="post.description | sanitizeHtml" ></span></p>
+    <a routerLink="/post/{{post.id}}"   class="btn btn-primary float-right">Read More &rarr;</a>
+  </div>
+  <div class="card-footer text-muted">
+    Posted on {{post.date}} |
+    <a routerLink="/about">{{post.author}}</a> | {{post.ctitle }}
+  </div>
+</div>
+
+<!-- Pagination -->
+<ul class="pagination justify-content-center mb-4">
+  <li class="page-item" *ngIf="currentPage < totalPage">
+    <a class="page-link" (click)="previous()" >&larr; Older</a>
+  </li>
+  <li *ngIf="startAt"  class="page-item">
+    <a class="page-link" (click)="next()">Newer &rarr;</a>
+  </li>
+</ul>
+
+

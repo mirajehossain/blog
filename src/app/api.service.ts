@@ -25,6 +25,12 @@ export class ApiService {
     return this.http.get<any>(url);
   }
 
+  search(string): Observable<any> {
+    let url = this.endpoint+"post/search";
+    return this.http.post(url, {string})
+      .map(data=>data)
+      .catch(error=>Observable.throw({Error:error}))
+  }
 
   /**
    * Get Post By ID from API
