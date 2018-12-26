@@ -9,7 +9,6 @@ import { ApiService } from './api.service';
 
 import { AppComponent } from './app.component';
 import {HighlightService} from "./highlight.service";
-import {FroalaEditorModule, FroalaViewModule} from "angular-froala-wysiwyg";
 
 @NgModule({
   declarations: [
@@ -20,10 +19,7 @@ import {FroalaEditorModule, FroalaViewModule} from "angular-froala-wysiwyg";
     HttpClientModule,
     FormsModule,
     AppRoutingModule,
-    LayoutModule,
-    FroalaEditorModule.forRoot(),
-    FroalaViewModule.forRoot()
-
+    LayoutModule
   ],
   exports: [AppRoutingModule],
   providers: [ApiService, HighlightService],

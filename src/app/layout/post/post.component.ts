@@ -11,7 +11,7 @@ import {HighlightService} from "../../highlight.service";
 })
 export class PostComponent implements OnInit, AfterViewChecked  {
 
-  public Post:PostType = new Object();
+  public Post: PostType = new Object();
   highlighted: boolean = false;
   constructor(private  route: ActivatedRoute, private apiService: ApiService, private highlightService: HighlightService) { }
 
