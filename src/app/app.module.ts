@@ -8,6 +8,8 @@ import { LayoutModule} from "./layout/layout.module";
 import { ApiService } from './api.service';
 
 import { AppComponent } from './app.component';
+import {HighlightService} from "./highlight.service";
+import {FroalaEditorModule, FroalaViewModule} from "angular-froala-wysiwyg";
 
 @NgModule({
   declarations: [
@@ -18,10 +20,13 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     FormsModule,
     AppRoutingModule,
-    LayoutModule
+    LayoutModule,
+    FroalaEditorModule.forRoot(),
+    FroalaViewModule.forRoot()
+
   ],
   exports: [AppRoutingModule],
-  providers: [ApiService],
+  providers: [ApiService, HighlightService],
   bootstrap: [AppComponent]
 })
 

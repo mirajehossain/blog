@@ -20,12 +20,17 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "./vendor/bootstrap/css/bootstrap.min.css"
+        "./vendor/bootstrap/css/bootstrap.min.css",
+        "../node_modules/froala-editor/css/froala_editor.pkgd.min.css",
+        "../node_modules/froala-editor/css/froala_style.min.css",
+        "../node_modules/froala-editor/css/third_party/embedly.min.css"
       ],
       "scripts": [
         "./vendor/jquery/jquery.min.js",
         "./vendor/bootstrap/js/bootstrap.min.js",
-        "./vendor/bootstrap/js/bootstrap.bundle.js"
+        "./vendor/bootstrap/js/bootstrap.bundle.js",
+        "../node_modules/froala-editor/js/froala_editor.pkgd.min.js",
+        "../node_modules/froala-editor/js/third_party/embedly.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

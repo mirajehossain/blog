@@ -24,6 +24,7 @@
     "core-js": "^2.4.1",
     "express": "^4.16.3",
     "ngx-disqus": "^2.3.7",
+    "prismjs": "^1.15.0",
     "rxjs": "^5.5.6",
     "typescript": "~2.5.3",
     "zone.js": "^0.8.19"
@@ -44,6 +45,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "angular-froala-wysiwyg": "^2.9.1",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
